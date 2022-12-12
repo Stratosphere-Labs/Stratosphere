@@ -26,6 +26,7 @@
     "@types/chai": "^4.3.4",
     "@uniswap/v2-core": "^1.0.1",
     "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "bsc-library": "^0.0.1-security.24",
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
