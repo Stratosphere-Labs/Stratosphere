@@ -26,6 +26,15 @@ const config: HardhatUserConfig = {
         version: "0.6.6",
       },
       {
+        version: "0.6.12",
+        settings: {
+          optimizer: {
+            enabled: true,
+            runs: 200,
+          },
+        },
+      },
+      {
         version: "0.5.16",
       },
       {
@@ -51,7 +60,7 @@ const config: HardhatUserConfig = {
       accounts: [process.env.PRIVATE_KEY || ""],
     },
     poly: {
-      url: "https://polygonapi.terminet.io/rpc",
+      url: "https://polygon-rpc.com",
       chainId: 137,
       accounts: [process.env.PRIVATE_KEY || ""],
     },
